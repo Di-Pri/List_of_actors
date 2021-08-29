@@ -1,0 +1,44 @@
+:root {
+  --shadow: 0px 0px 6px 1px rgb(88, 88, 88);
+}
+
+body {
+  text-align: center;
+  font-size: 23px;
+}
+
+.actorsList p {
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  margin: 1.2rem;
+}
+
+.actorsList p:hover {
+  background: thistle;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  padding: 1rem;
+  background: thistle;
+  box-shadow: var(--shadow);
+  font-size: 30px;
+}
+
+button {
+  background: white;
+  border: none;
+  box-shadow: var(--shadow);
+  width: 9rem;
+  height: 1.8rem;
+  margin: 1rem;
+}
+
+.hidden {
+  display: none;
+}
